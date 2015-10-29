@@ -13,6 +13,7 @@
 		AA1D2FDD1BE20F6200EFD09C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1D2FDB1BE20F6200EFD09C /* Main.storyboard */; };
 		AA1D2FDF1BE20F6200EFD09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1D2FDE1BE20F6200EFD09C /* Assets.xcassets */; };
 		AA1D2FE21BE20F6200EFD09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1D2FE01BE20F6200EFD09C /* LaunchScreen.storyboard */; };
+		AA1D2FEB1BE2169B00EFD09C /* NSString+KN.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D2FEA1BE2169B00EFD09C /* NSString+KN.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		AA1D2FDE1BE20F6200EFD09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA1D2FE11BE20F6200EFD09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1D2FE31BE20F6200EFD09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA1D2FE91BE2169B00EFD09C /* NSString+KN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KN.h"; sourceTree = "<group>"; };
+		AA1D2FEA1BE2169B00EFD09C /* NSString+KN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KN.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				AA1D2FE01BE20F6200EFD09C /* LaunchScreen.storyboard */,
 				AA1D2FE31BE20F6200EFD09C /* Info.plist */,
 				AA1D2FD21BE20F6200EFD09C /* Supporting Files */,
+				AA1D2FE91BE2169B00EFD09C /* NSString+KN.h */,
+				AA1D2FEA1BE2169B00EFD09C /* NSString+KN.m */,
 			);
 			path = Git_test;
 			sourceTree = "<group>";
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA1D2FEB1BE2169B00EFD09C /* NSString+KN.m in Sources */,
 				AA1D2FDA1BE20F6200EFD09C /* ViewController.m in Sources */,
 				AA1D2FD71BE20F6200EFD09C /* AppDelegate.m in Sources */,
 				AA1D2FD41BE20F6200EFD09C /* main.m in Sources */,
@@ -298,6 +304,7 @@
 				AA1D2FE81BE20F6200EFD09C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
