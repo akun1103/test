@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		AA1D2FD41BE20F6200EFD09C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D2FD31BE20F6200EFD09C /* main.m */; };
 		AA1D2FD71BE20F6200EFD09C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D2FD61BE20F6200EFD09C /* AppDelegate.m */; };
-		AA1D2FDA1BE20F6200EFD09C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D2FD91BE20F6200EFD09C /* ViewController.m */; };
 		AA1D2FDD1BE20F6200EFD09C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1D2FDB1BE20F6200EFD09C /* Main.storyboard */; };
-		AA1D2FDF1BE20F6200EFD09C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA1D2FDE1BE20F6200EFD09C /* Assets.xcassets */; };
 		AA1D2FE21BE20F6200EFD09C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA1D2FE01BE20F6200EFD09C /* LaunchScreen.storyboard */; };
-		AA1D2FEB1BE2169B00EFD09C /* NSString+KN.m in Sources */ = {isa = PBXBuildFile; fileRef = AA1D2FEA1BE2169B00EFD09C /* NSString+KN.m */; };
+		AA60938C1BEB3604007E2563 /* NSString+KN.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6093821BEB3604007E2563 /* NSString+KN.m */; };
+		AA60938D1BEB3604007E2563 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6093851BEB3604007E2563 /* ViewController.m */; };
+		AA60938E1BEB3604007E2563 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA60938A1BEB3604007E2563 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +21,14 @@
 		AA1D2FD31BE20F6200EFD09C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA1D2FD51BE20F6200EFD09C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA1D2FD61BE20F6200EFD09C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		AA1D2FD81BE20F6200EFD09C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		AA1D2FD91BE20F6200EFD09C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		AA1D2FDC1BE20F6200EFD09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AA1D2FDE1BE20F6200EFD09C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA1D2FE11BE20F6200EFD09C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA1D2FE31BE20F6200EFD09C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AA1D2FE91BE2169B00EFD09C /* NSString+KN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KN.h"; sourceTree = "<group>"; };
-		AA1D2FEA1BE2169B00EFD09C /* NSString+KN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KN.m"; sourceTree = "<group>"; };
+		AA6093811BEB3604007E2563 /* NSString+KN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+KN.h"; sourceTree = "<group>"; };
+		AA6093821BEB3604007E2563 /* NSString+KN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+KN.m"; sourceTree = "<group>"; };
+		AA6093841BEB3604007E2563 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA6093851BEB3604007E2563 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA60938A1BEB3604007E2563 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,17 +61,18 @@
 		AA1D2FD11BE20F6200EFD09C /* Git_test */ = {
 			isa = PBXGroup;
 			children = (
+				AA6093801BEB3604007E2563 /* Category */,
+				AA6093831BEB3604007E2563 /* Controllers */,
+				AA6093861BEB3604007E2563 /* External */,
+				AA6093871BEB3604007E2563 /* Models */,
+				AA6093881BEB3604007E2563 /* Resource */,
+				AA60938B1BEB3604007E2563 /* Views */,
 				AA1D2FD51BE20F6200EFD09C /* AppDelegate.h */,
 				AA1D2FD61BE20F6200EFD09C /* AppDelegate.m */,
-				AA1D2FD81BE20F6200EFD09C /* ViewController.h */,
-				AA1D2FD91BE20F6200EFD09C /* ViewController.m */,
 				AA1D2FDB1BE20F6200EFD09C /* Main.storyboard */,
-				AA1D2FDE1BE20F6200EFD09C /* Assets.xcassets */,
 				AA1D2FE01BE20F6200EFD09C /* LaunchScreen.storyboard */,
 				AA1D2FE31BE20F6200EFD09C /* Info.plist */,
 				AA1D2FD21BE20F6200EFD09C /* Supporting Files */,
-				AA1D2FE91BE2169B00EFD09C /* NSString+KN.h */,
-				AA1D2FEA1BE2169B00EFD09C /* NSString+KN.m */,
 			);
 			path = Git_test;
 			sourceTree = "<group>";
@@ -82,6 +83,61 @@
 				AA1D2FD31BE20F6200EFD09C /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AA6093801BEB3604007E2563 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AA6093811BEB3604007E2563 /* NSString+KN.h */,
+				AA6093821BEB3604007E2563 /* NSString+KN.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AA6093831BEB3604007E2563 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA6093841BEB3604007E2563 /* ViewController.h */,
+				AA6093851BEB3604007E2563 /* ViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA6093861BEB3604007E2563 /* External */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = External;
+			sourceTree = "<group>";
+		};
+		AA6093871BEB3604007E2563 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AA6093881BEB3604007E2563 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				AA6093891BEB3604007E2563 /* Images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		AA6093891BEB3604007E2563 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				AA60938A1BEB3604007E2563 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AA60938B1BEB3604007E2563 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA1D2FE21BE20F6200EFD09C /* LaunchScreen.storyboard in Resources */,
-				AA1D2FDF1BE20F6200EFD09C /* Assets.xcassets in Resources */,
+				AA60938E1BEB3604007E2563 /* Assets.xcassets in Resources */,
 				AA1D2FDD1BE20F6200EFD09C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -154,9 +210,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA1D2FEB1BE2169B00EFD09C /* NSString+KN.m in Sources */,
-				AA1D2FDA1BE20F6200EFD09C /* ViewController.m in Sources */,
 				AA1D2FD71BE20F6200EFD09C /* AppDelegate.m in Sources */,
+				AA60938C1BEB3604007E2563 /* NSString+KN.m in Sources */,
+				AA60938D1BEB3604007E2563 /* ViewController.m in Sources */,
 				AA1D2FD41BE20F6200EFD09C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
