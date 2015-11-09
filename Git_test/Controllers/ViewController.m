@@ -18,6 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"hello world");
     // Do any additional setup after loading the view, typically from a nib.
     NSString *str = [NSString stringWithFormat:@"https://alpha-api.app.net/stream/0/posts/stream/global"];
     NSURL *url = [NSURL URLWithString:str];
